@@ -6,10 +6,97 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2F75E7AD2F1A162400BD9848 /* 01_BasicTypes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 01_BasicTypes;
+			sourceTree = "<group>";
+		};
+		2F75E7B32F1A170700BD9848 /* 02_Optionals */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 02_Optionals;
+			sourceTree = "<group>";
+		};
+		2F75E7B62F1A175C00BD9848 /* 03_Arrays */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 03_Arrays;
+			sourceTree = "<group>";
+		};
+		2F75E7B92F1A177100BD9848 /* 04_Dictionary */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 04_Dictionary;
+			sourceTree = "<group>";
+		};
+		2F75E7BC2F1A179000BD9848 /* 05_Functions */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 05_Functions;
+			sourceTree = "<group>";
+		};
+		2F75E7BF2F1A17AA00BD9848 /* 06_Enum */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 06_Enum;
+			sourceTree = "<group>";
+		};
+		2F75E7C22F1A17CC00BD9848 /* 07_Struct */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 07_Struct;
+			sourceTree = "<group>";
+		};
+		2F75E7C52F1A17D800BD9848 /* 08_ComputedProperties */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 08_ComputedProperties;
+			sourceTree = "<group>";
+		};
+		2F75E7C82F1A17ED00BD9848 /* 09_Classes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 09_Classes;
+			sourceTree = "<group>";
+		};
+		2F75E7CB2F1A17F900BD9848 /* 10_ExtensionsProtocols */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 10_ExtensionsProtocols;
+			sourceTree = "<group>";
+		};
+		2F75E7CE2F1A181600BD9848 /* 11_ProtocolsGuard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 11_ProtocolsGuard;
+			sourceTree = "<group>";
+		};
+		2F75E7D12F1A182600BD9848 /* 12_Closure */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 12_Closure;
+			sourceTree = "<group>";
+		};
+		2F75E7D42F1A183100BD9848 /* 13_ARC */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 13_ARC;
+			sourceTree = "<group>";
+		};
+		2F75E7D72F1A183A00BD9848 /* 14_Generics */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 14_Generics;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXGroup section */
 		2F75E7A52F1A154600BD9848 = {
 			isa = PBXGroup;
 			children = (
+				2F75E7D72F1A183A00BD9848 /* 14_Generics */,
+				2F75E7D42F1A183100BD9848 /* 13_ARC */,
+				2F75E7D12F1A182600BD9848 /* 12_Closure */,
+				2F75E7CE2F1A181600BD9848 /* 11_ProtocolsGuard */,
+				2F75E7CB2F1A17F900BD9848 /* 10_ExtensionsProtocols */,
+				2F75E7C82F1A17ED00BD9848 /* 09_Classes */,
+				2F75E7C52F1A17D800BD9848 /* 08_ComputedProperties */,
+				2F75E7C22F1A17CC00BD9848 /* 07_Struct */,
+				2F75E7BF2F1A17AA00BD9848 /* 06_Enum */,
+				2F75E7BC2F1A179000BD9848 /* 05_Functions */,
+				2F75E7B92F1A177100BD9848 /* 04_Dictionary */,
+				2F75E7B62F1A175C00BD9848 /* 03_Arrays */,
+				2F75E7B32F1A170700BD9848 /* 02_Optionals */,
+				2F75E7AD2F1A162400BD9848 /* 01_BasicTypes */,
 			);
 			sourceTree = "<group>";
 		};
