@@ -76,6 +76,27 @@ mergeUnique(array1: ["a", "b", "c"], array2: ["b", "c", "d"])
 //Если таких слов несколько — вернуть любое.
 //Пример: ["apple", "banana", "apple", "orange"] → "apple"
 
-//func mostFrequentWord(in words: [String]) -> String? {
-//
-//}
+func mostFrequentWord(in words: [String]) -> String? {
+    guard words.isEmpty else {
+        return nil
+    }
+
+    var countDict: [String : Int] = [:]
+    var maxCountWord: String = ""
+    var maxCount: Int = 0
+
+    for word in words {
+        countDict[word, default: 0] += 1
+    }
+
+    for (word, count) in countDict {
+        if count > maxCount {
+            maxCount = count
+            maxCountWord = word
+        }
+    }
+
+    return maxCountWord
+}
+
+mostFrequentWord(in: ["apple", "banana", "apple", "orange"])
