@@ -77,7 +77,7 @@ mergeUnique(array1: ["a", "b", "c"], array2: ["b", "c", "d"])
 //Пример: ["apple", "banana", "apple", "orange"] → "apple"
 
 func mostFrequentWord(in words: [String]) -> String? {
-    guard words.isEmpty else {
+    guard !words.isEmpty else {
         return nil
     }
 
